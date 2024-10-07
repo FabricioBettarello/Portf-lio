@@ -8,7 +8,7 @@ const Principal = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Você quer me conhecer melhor?{" "}
-              <a href="#" className="font-semibold text-customBlue">
+              <a href="/sobre" className="font-semibold text-customBlue">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Saiba mais <span aria-hidden="true">&rarr;</span>
               </a>
