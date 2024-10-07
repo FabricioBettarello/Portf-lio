@@ -3,7 +3,7 @@ import Imagem from '../assets/imagem.png';
 
 const Sobre = () => {
     return (
-        <section className="flex items-center justify-center min-h-screen p-6">
+        <section className="flex items-center justify-center min-h-screen py-24 p-6 md:py-6">
             <div className='flex flex-col md:flex-row items-center justify-between w-full max-w-6xl'>
                 <div className="w-full md:w-1/2 p-6 text-center md:text-left">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 text-customBlue">Sobre Mim</h1>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const projects = [
     {
         title: 'Mahindra Racing',
@@ -22,9 +24,9 @@ const projects = [
 const Projetos = () => {
     return (
         <>
-            <section className="py-64">
+            <section className="py-32 md:py-64">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-6xl font-bold text-center text-customBlue mb-24">Projetos Desenvolvidos</h2>
+                    <h2 className="text-5xl font-bold text-center text-customBlue mb-24">Projetos Desenvolvidos</h2>
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {projects.map((project, index) => (
                             <div key={index} className="backdrop-blur-sm bg-white bg-opacity-10 p-6 rounded-lg shadow-md">
